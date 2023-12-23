@@ -1,0 +1,88 @@
+.ticker-widget {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #262626;
+    /* width: 33%; */
+    height: 200px;
+    /* border-radius: 20px; */
+    text-align: center;
+    border-color: blue;
+    border-width: 10px;
+    box-shadow: 10px;
+}
+.ticket-title {
+    /* margin-top: 20px; */
+    color: white;
+    font-weight: 500;
+
+}
+.ticket-min-part{
+    border-right: groove;
+    border-color: black;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color: #434343;
+}
+
+.flex-item {
+    width: 20%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.flex{
+    /* justify-content: space-between; */
+    /* display: flex; */
+    flex-direction: row;
+    text-wrap: nowrap;
+}
+.item-container {
+    margin-top: 40px;
+    /* position: absolute; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #434343;
+}
+
+.vertical-divide {
+    border: solid 1px #000000;
+    height: 20px;
+    width: 1px;
+}
+.ticket-icon{
+    width: 32px;
+    height: 32px;
+}
+.ticker-label{
+  color: white;
+  font-size: 13px;
+  text-wrap: nowrap;
+}
+.ticker-value{
+    color:green;
+    font-size: 15px;
+}
+.ticker-change{
+    flex-direction: column;
+    text-wrap: nowrap;
+    color: red;
+    font-size: 18px;
+}
+/* @media screen and (max-width: 1200px) {
+.ticker-widget {
+    background-color: #262626;
+    width: 50%;
+    height: 150px;
+}
+}
+@media screen and (max-width:575px) {
+    .ticker-widget {
+    background-color: #262626;
+    width: 100%;
+    height: 150px;
+}
+} */
