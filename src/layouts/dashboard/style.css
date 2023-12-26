@@ -1,0 +1,41 @@
+.dashboard-container .ticker-part {
+  background-color: black;
+  /* width: 70%; */
+  /* height: 150px; */
+  padding: 10px;
+  /* padding: 10px; */
+}
+.dashboard-container .ticker-part .ticker-title {
+  /* margin-bottom: 3%; */
+  color: white;
+  text-align: center;
+}
+.dashboard-container .marketmood-part{
+  /* width: ; */
+  /* height: 500px; */
+  /* width: 70%; */
+  background-color: black;
+  margin-top: 10px;
+
+}
+.dashboard-container .marketmood-part .market-mood-top .market-mood-title{
+  color: white;
+  text-align: center;
+}
+.dashboard-container .marketmood-part .detail-mood{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.dashboard-container .marketmood-part .detail-mood .forex-market-mood{
+  width: 33%;
+  margin-right: 1%;
+}
+.dashboard-container .marketmood-part .detail-mood .crypto-market-mood{
+  width: 33%;
+  margin-right: 1%;
+}
+.dashboard-container .marketmood-part .detail-mood .stock-market-mood{
+  width: 33%;
+}
