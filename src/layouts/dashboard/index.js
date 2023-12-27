@@ -12,6 +12,7 @@ import MarketMood from "components/marketmood";
 import ForexMood from "components/marketmood/forex";
 import CryptoMood from "components/marketmood/crypto";
 import StockMood from "components/marketmood/stock";
+import TechAnalysis from "components/Widgets/techAnalysis";
 function Dashboard() {
   return (
     <DashboardLayout>
@@ -40,6 +41,11 @@ function Dashboard() {
             <div className="Stock-market-mood">
               <StockMood />
             </div>
+          </div>
+        </div>
+        <div className="analysis-part">
+          <div className="tech-part">
+            <TechAnalysis />
           </div>
         </div>
       </div>

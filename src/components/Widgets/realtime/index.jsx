@@ -36,7 +36,7 @@ const RealTime = () => {
         style={{ height: "calc(100% - 32px)", width: "100%" }}
       ></div>
       <div className="tradingview-widget-copyright">
-        <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+        <a href="https://www.tradingview.com/" rel="noopener noreferrer" target="_blank">
           <span className="blue-text">Track all markets on TradingView</span>
         </a>
       </div>

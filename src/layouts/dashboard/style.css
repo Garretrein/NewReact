@@ -39,3 +39,7 @@
 .dashboard-container .marketmood-part .detail-mood .stock-market-mood{
   width: 33%;
 }
+.dashboard-container .analysis-part {
+  width: 100%;
+  /* height: 40%; */
+}
